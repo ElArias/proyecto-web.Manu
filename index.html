@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para alguien especial</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <canvas id="estrellas"></canvas> 
+
+    <div class="container">
+        <h1>Para Manuelita. ❤️</h1>
+
+        <p class="mensaje" id="mensaje"></p>
+        <p id="final" class="mensaje" style="display: none;">Hecho con mucho cariño y admiración para ti</p>
+
+        <audio id="audio" src="musica.mp3" preload="auto"></audio>
+        <button id="playMusic">Reproducir música 🎵</button>
+
+        <div id="contador"></div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="carta-container" id="cartaContainer">
+        <div class="carta">
+          <p>
+            Querida Manuelita, <br><br>
+            A veces las palabras no alcanzan, pero esta es mi forma de recordarte que llegaste a mi vida como una luz inesperada. No sé cómo ni cuándo, pero desde que estás, todo tiene más sentido. 💌<br><br>
+            Gracias por existir y ser esa niña maravillosa e increíble.
+            <div class="firma-con-decoracion">
+                <p class="firma-tinta">Att:<br>Tu Davidcito.</p>
+                <i class="fas fa-pen pluma-img"></i>
+                <div class="linea-tinta"></div>
+              </div>                          
+           </p> 
+          <button onclick="cerrarCarta()">Cerrar</button>
+        </div>
+      </div>
+      
+      <button class="boton-carta" onclick="mostrarCarta()">💌 Ver carta</button>      
+      </div>      
+
+    <script src="script.js"></script>            
+</body>
+</html>
+
